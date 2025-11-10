@@ -1,0 +1,314 @@
+═══════════════════════════════════════════════════════════════
+SOULVAN RACING - WINDOWS BUILD & DOWNLOAD GUIDE
+═══════════════════════════════════════════════════════════════
+
+✅ SETUP COMPLETE
+
+Created Files:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 C:\Users\Brian\build_windows_installer.ps1
+   → Complete installer creation script
+
+🌐 C:\Users\Brian\Installer\download.html
+   → Professional download page with install button
+
+📁 C:\Users\Brian\Builds\Windows\
+   → Unity build output folder (build game here)
+
+📁 C:\Users\Brian\Installer\
+   → Installer package output folder
+
+
+HOW TO BUILD & DISTRIBUTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: BUILD IN UNITY
+----------------------
+
+1. Open Unity Hub
+2. Load your Soulvan Racing project
+3. Go to Edit → Project Settings → Player
+   
+   Set these values:
+   • Company Name: Soulvan Studios
+   • Product Name: Soulvan Racing
+   • Version: 1.0.0
+   • Icon: (your game icon)
+
+4. Go to File → Build Settings
+   
+   Configure:
+   • Platform: PC, Mac & Linux Standalone
+   • Target Platform: Windows
+   • Architecture: x86_64
+   • Compression: LZ4 or LZ4HC (faster)
+
+5. Click "Build" button
+   
+   Save to:
+   • Location: C:\Users\Brian\Builds\Windows
+   • Filename: SoulvanRacing.exe
+
+6. Wait for build to complete (5-15 minutes)
+
+
+STEP 2: CREATE INSTALLER (OPTION A - PROFESSIONAL)
+--------------------------------------------------
+
+Download & Install Inno Setup:
+→ https://jrsoftware.org/isdl.php
+
+1. Run: C:\Users\Brian\build_windows_installer.ps1
+   (This will generate SoulvanRacing.iss script)
+
+2. Open Inno Setup
+3. File → Open → Select generated .iss file
+4. Build → Compile
+5. Installer will be created:
+   → C:\Users\Brian\Installer\SoulvanRacing_Setup_v1.0.0.exe
+
+Result: ~2-3 GB installer that includes:
+• Auto-install to Program Files
+• Desktop shortcut creation
+• Start Menu entries
+• Uninstaller
+• Professional wizard interface
+
+
+STEP 2: CREATE ZIP (OPTION B - SIMPLE)
+--------------------------------------
+
+For portable/no-install version:
+
+1. Right-click: C:\Users\Brian\Builds\Windows folder
+2. Send to → Compressed (zipped) folder
+3. Rename to: SoulvanRacing_Portable_v1.0.0.zip
+4. Move to: C:\Users\Brian\Installer\
+
+Result: Players extract and run SoulvanRacing.exe directly
+
+
+STEP 3: UPLOAD & DISTRIBUTE
+---------------------------
+
+Host the files on:
+• Your website
+• itch.io
+• Game Jolt
+• Google Drive / Dropbox
+• Steam (requires Steamworks SDK)
+
+Files to upload:
+✓ SoulvanRacing_Setup_v1.0.0.exe (installer)
+✓ SoulvanRacing_Portable_v1.0.0.zip (portable)
+✓ download.html (your download page)
+
+
+STEP 4: CREATE DOWNLOAD PAGE
+----------------------------
+
+The download page is ready at:
+→ C:\Users\Brian\Installer\download.html
+
+Features:
+✅ Beautiful gradient design
+✅ Two download buttons (Installer + Portable)
+✅ Feature showcase (8 game features)
+✅ System requirements table
+✅ Responsive mobile-friendly layout
+✅ Professional branding
+
+To use:
+1. Upload download.html to your website
+2. Place installer files in same folder
+3. Update links if needed
+4. Share URL with players!
+
+
+DOWNLOAD PAGE PREVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏁 SOULVAN RACING
+Race. Remix. Earn. Become Legend.
+
+┌─────────────────────────────────────────────┐
+│          🖥️ Windows PC                      │
+│                                             │
+│    [⬇️ DOWNLOAD INSTALLER]  [📦 PORTABLE]   │
+│                                             │
+│    Version 1.0.0 | Windows 10/11 | ~2 GB   │
+└─────────────────────────────────────────────┘
+
+✨ Features
+[8 feature cards showing game features]
+
+💻 System Requirements
+[Full requirements table]
+
+
+TESTING CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before distributing, test on clean Windows systems:
+
+☐ Installer runs without errors
+☐ Game launches successfully
+☐ All systems load (Override Raid, Remix, DAO, etc.)
+☐ Graphics settings work
+☐ Controller support functional
+☐ MetaMask wallet connects
+☐ Audio plays correctly
+☐ Uninstaller removes all files
+☐ No antivirus false positives
+☐ Portable version works without install
+
+
+DISTRIBUTION PLATFORMS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FREE PLATFORMS:
+---------------
+
+itch.io
+• Upload: ZIP or installer
+• Price: Free or paid
+• Revenue share: Optional (you choose %)
+• Distribution: Immediate
+→ https://itch.io/developers
+
+Game Jolt
+• Upload: Any file format
+• Price: Free or paid
+• Revenue share: 10%
+• Distribution: Immediate
+→ https://gamejolt.com/dashboard/developers
+
+PREMIUM PLATFORMS:
+-----------------
+
+Steam
+• Requires: $100 fee + Steamworks SDK integration
+• Revenue share: 30%
+• Features: Achievements, Workshop, Cloud Saves
+• Distribution: 2-4 week review process
+→ https://partner.steamgames.com/
+
+Epic Games Store
+• Requires: Application + Epic Online Services
+• Revenue share: 12%
+• Features: Cross-platform, Cloud Saves
+• Distribution: 4-8 week review process
+→ https://dev.epicgames.com/
+
+
+MONETIZATION OPTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FREE-TO-PLAY:
+• Free download
+• Earn through in-game SOUL economy
+• Web3 wallet integration
+• Blockchain transactions
+
+PAID:
+• One-time purchase: $19.99 - $29.99
+• Include starter SOUL package
+• Premium content unlocked
+
+FREEMIUM:
+• Free base game
+• Optional SOUL starter packs: $9.99 - $49.99
+• Battle pass / season pass: $9.99
+• Cosmetic DLC packs: $4.99 - $14.99
+
+
+MARKETING MATERIALS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Create these for launch:
+☐ Gameplay trailer (30-60 seconds)
+☐ Feature showcase video (2-3 minutes)
+☐ Screenshot pack (10+ images)
+☐ Press kit with game info
+☐ Social media graphics
+☐ Discord server setup
+☐ Twitter/X account
+☐ Reddit community
+
+
+LAUNCH CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRE-LAUNCH:
+☐ Game built and tested
+☐ Installer created and tested
+☐ Download page published
+☐ Smart contract deployed to testnet
+☐ Documentation complete
+☐ Social media accounts created
+☐ Discord server ready
+☐ Press kit prepared
+
+LAUNCH DAY:
+☐ Deploy smart contract to mainnet
+☐ Upload installer to hosting
+☐ Publish download page
+☐ Announce on social media
+☐ Post to game forums (Reddit, Discord)
+☐ Email press contacts
+☐ Monitor for issues
+
+POST-LAUNCH:
+☐ Respond to player feedback
+☐ Fix critical bugs ASAP
+☐ Plan first content update
+☐ Track player metrics
+☐ Build community engagement
+
+
+SUPPORT RESOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Unity Build Documentation:
+→ https://docs.unity3d.com/Manual/BuildSettings.html
+
+Inno Setup Documentation:
+→ https://jrsoftware.org/ishelp/
+
+Steam Documentation:
+→ https://partner.steamgames.com/doc/home
+
+MetaMask Integration:
+→ https://docs.metamask.io/guide/
+
+
+QUICK COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build for Windows:
+→ Run Unity build to C:\Users\Brian\Builds\Windows
+
+Create Installer:
+→ powershell -ExecutionPolicy Bypass -File build_windows_installer.ps1
+
+Open Download Page:
+→ Start-Process C:\Users\Brian\Installer\download.html
+
+Create Portable ZIP:
+→ Compress-Archive -Path "C:\Users\Brian\Builds\Windows\*" -DestinationPath "C:\Users\Brian\Installer\SoulvanRacing_Portable.zip"
+
+
+═══════════════════════════════════════════════════════════════
+✅ SOULVAN RACING WINDOWS BUILD READY
+═══════════════════════════════════════════════════════════════
+
+Your game is configured for:
+• Professional Windows installer
+• Downloadable portable version
+• Beautiful download page with install button
+• Multi-platform distribution ready
+
+Next: Build in Unity, create installer, upload, and launch! 🚀
+
+🏁 Good luck with your launch! 🏁
