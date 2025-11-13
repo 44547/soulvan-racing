@@ -1,0 +1,7 @@
+# Node dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Hardhat deployment secrets (do not commit)
+hardhat/deployed/
