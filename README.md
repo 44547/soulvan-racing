@@ -13,6 +13,7 @@ This is the **complete implementation** of the Soulvan Racing Mythic Ecosystem, 
 - **soulvan-tools.js** - CLI toolkit with 8 contributor commands  
 - **soulbeat.js** - AI music generation engine
 - **Unity Scripts** - Complete game integration with faction physics and onboarding
+- **Aerial Content** - Jet races with bosses, helicopter missions
 
 ### Ecosystem Flow
 ```
@@ -23,6 +24,34 @@ Create → Vote → Play → Reward → Create
 
 ---
 
+## 🖼️ Ultra-Realistic Visuals
+- 16K-capable renderer targets via visual presets
+- Dynamic LOD + AI upscaling for jets, cars, cityscapes
+- Visual environment packs: skyboxes, weather, lighting rigs via DAO
+
+## 🤖 AI Auto-Updates
+- Background service checks daily for jets/cars/missions
+- Applies contributor packs validated via Remix DNA
+- Adaptive AI opponents evolve with community telemetry
+
+## ✈️ Jets & 🚁 Helicopters
+- Jet racing routes with boss encounters (bonus coins, badges)
+- Helicopter missions: rescue, chase, spotlight sequences
+- Prestige badges: Skybreaker, Rotor Guardian, Sky Rescuer
+
+## 🚗 Hypercars & Latest Cars
+- Auto-update garage adds contributor-curated hypercars + latest models
+- Full customization packs (bodykits, rims, stance sliders)
+- DNA-anchored engine swaps and drivetrain variants via DAO proposals
+
+## 🌟 Ceremony Integration
+- Vehicles/jets/helicopters showcased with DNAVisualizer + BadgeOverlay
+- FinaleFireworks crowns ceremonies with synchronized lights and music
+
+## 🛠️ JSON Schemas
+- Routes: `configs/routes/*.json`, `configs/aerial/routes/*.json`
+- Vehicles: `configs/vehicles/*.json` (visual presets + DNA)
+- Missions: `configs/aerial/missions/*.json`
 ## 🔗 Smart Contracts (SoulvanEcosystem.sol)
 
 ### SoulvanCoin ERC20 Token
