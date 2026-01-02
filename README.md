@@ -1,5 +1,14 @@
 # 🌌 Soulvan Racing: Mythic Ecosystem Blueprint
 
+## Vision
+
+Soulvan Racing aims to be the most advanced ultra-realistic racing game in the world:
+
+- **Hyper-detailed car handling models:** Tire grip, suspension, aerodynamics, and evolving physics for every car class.
+- **Global cultures:** Race 2026 exotics, hypercars, and street-level matatus—each with authentic style, sound, and attitude.
+- **Cinematic immersion:** Dynamic lighting, rain, smoke, neon reflections, and a replay system with chase/cockpit cams and camera shake.
+- **AI Director:** Dynamic coaching, rival personalities, and live race storytelling that adapts to every moment.
+
 ## Complete DAO Contributor System with Unity Integration
 
 This is the **complete implementation** of the Soulvan Racing Mythic Ecosystem, featuring blockchain smart contracts, Unity game integration, CLI contributor tools, AI music generation, and comprehensive DAO governance.
