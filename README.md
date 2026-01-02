@@ -467,4 +467,108 @@ cd racing-ecosystem
 node soulvan-tools.js create-wallet
 ```
 
+🔥 SOULVAN — NEW COMMITS ROADMAP (NEXT PUSHES)
+1. Pantheon Influence Protocol v1.1
+Commit:
+
+Adds:
+• 	Seasonal multipliers
+• 	Boss‑specific alignment curves
+• 	DAO weighting adjustments
+• 	Cleaner aggregation pipeline
+This makes Pantheon influence feel more mythic and reactive.
+
+2. Codex API v1 (Public JSON Endpoint)
+Commit:
+
+Adds:
+• 	SeasonUnderGaze
+• 	Constellation nodes
+• 	Boss mutation cards
+• 	World event summaries
+Unity + dashboard can now pull live Codex data.
+
+3. Boss Mutation Engine v0.9
+Commit:
+
+Adds:
+• 	Ghost fracture states
+• 	Matatu neon surge states
+• 	Archivist glyph escalation
+• 	Mutation thresholds tied to Pantheon vectors
+Bosses now evolve mid‑season.
+
+4. SoulvanMusic Adaptive Layer v0.8
+Commit:
+
+Adds:
+• 	Car identity motifs
+• 	Boss tension cues
+• 	Drift/speed‑based remixing
+• 	Seasonal theme injection
+Music now reacts to gameplay in real time.
+
+5. Supercar Codex Dynamic Rarity v0.5
+Commit:
+
+Adds:
+• 	Rarity shifts based on Pantheon influence
+• 	Remix DNA lineage scoring
+• 	Seasonal prestige tags
+The car ecosystem becomes alive.
+
+6. Contributor Wallet + Identity v1
+Commit:
+
+Adds:
+• 	Contributor profiles
+• 	Prestige accumulation
+• 	Seasonal badges
+• 	Pantheon ascension triggers
+This unlocks the contributor economy loop.
+
+7. World Event Generator v0.7
+Commit:
+
+Adds:
+• 	Ghost Surges
+• 	Neon Uprisings
+• 	Codex Revelations
+• 	DNA Storms
+The world now reacts to Pantheon pressure.
+
+8. Pantheon Civil War Pre‑Hooks
+Commit:
+
+Adds:
+• 	Ghost / Matatu / Archivist faction drift
+• 	Territory control seeds
+• 	Faction‑based world event weighting
+This sets up Season 4.
+
+9. Unity Codex Client v0.4
+Commit:
+
+Adds:
+• 	Live Codex UI
+• 	Constellation rendering
+• 	Boss mutation cards
+• 	World event feed
+The Codex becomes a living in‑game book.
+
+10. Dev Tools: Pantheon Simulator v0.3
+Commit:
+
+Adds:
+• 	Automated event generation
+• 	Scenario presets
+• 	Regression testing for Codex + world events
+This lets you preview entire seasons before launch.
+
+If you want, I can also generate:
+• 	Git commit messages in your preferred style (Conventional Commits, Gitmoji, etc.)
+• 	A GitHub Projects board with all tasks
+• 	A release notes document
+• 	A CI/CD pipeline plan
+• 	A “next 30 days” engineering sprint
 **Your legend starts now. 🏁**
